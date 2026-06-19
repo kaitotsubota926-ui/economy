@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: '地理探求辞書',
+      title: '政治経済辞書',
       htmlAttrs: {
         lang: 'ja'
       }
@@ -41,8 +41,8 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxtjs/sitemap', '@nuxt/content', '@unocss/nuxt'],
   site: {
-    url: 'https://geography.hs.dict.digital',
-    name: '地理探求',
+    url: 'https://xn--5bvo0ot2av09a.hs.dict.digital',
+    name: '政治経済',
     trailingSlash: true
   },
   vite: {
