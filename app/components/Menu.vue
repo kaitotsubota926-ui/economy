@@ -45,8 +45,8 @@ const handleShare = () => {
   if (navigator.share) {
     navigator
       .share({
-        title: '地理探求 - Dictionary_digital',
-        url: 'https://geography.hs.dict.digital'
+        title: '政治経済 - Dictionary_digital',
+        url: 'https://xn--5bvo0ot2av09a.hs.dict.digital'
       })
       .catch((error) => {
         console.error('共有に失敗:', error);
@@ -59,7 +59,7 @@ const handleShare = () => {
 
 // メニュー項目の操作処理
 const copyUrlScheme = () => {
-  const urlScheme = 'https://geography.hs.dict.digital/content/[slug]';
+  const urlScheme = 'https://xn--5bvo0ot2av09a.hs.dict.digital/content/[slug]';
   navigator.clipboard.writeText(urlScheme).then(
     () => {},
     (err) => {
