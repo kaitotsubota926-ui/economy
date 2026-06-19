@@ -22,7 +22,7 @@ let pagefind: any = null;
 
 // pageSize を削除
 const PAGEFIND_OPTIONS = {
-  bundlePath: 'https://geography.hs.dict.digital/content_search/',
+  bundlePath: 'https://xn--5bvo0ot2av09a.hs.dict.digital/content_search/',
   baseUrl: '/content/'
 };
 
